@@ -7,9 +7,9 @@
     echo('Hello world 2');
     echo($_POST)
 
-    $op = json_encode($_POST['op']);
-    $n1 = json_encode($_POST['n1']);
-    $n2 = json_encode($_POST['n2']);
+    $op = ($_POST['op']);
+    $n1 = ($_POST['n1']);
+    $n2 = ($_POST['n2']);
     echo $n1;
     
     var_dump($op);
