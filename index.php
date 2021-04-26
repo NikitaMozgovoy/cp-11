@@ -20,7 +20,7 @@
     switch ($op) {
     case "add":
         $res = $n1 + $n2;
-        echo $res;
+        return $res;
         break;
     case "substract":
         $res = $n1 - $n2;
