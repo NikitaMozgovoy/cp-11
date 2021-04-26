@@ -1,6 +1,7 @@
 <?php
+    if ($_SERVER['REQUEST_METHOD'] === "GET"){
+    echo('Hello world') ;}
 
-    echo('Hello world') ;
     header('Access-Control-Allow-Origin: *');
     if ($_SERVER['REQUEST_METHOD'] === "POST"){
 
