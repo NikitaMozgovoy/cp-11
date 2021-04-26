@@ -1,4 +1,6 @@
-<?php 
+<?php
+
+    echo('Hello world') ;
     header('Access-Control-Allow-Origin: *');
     if ($_SERVER['REQUEST_METHOD'] === "POST"){
 
@@ -9,7 +11,7 @@
     $op = $_POST['op'];
     $n1 = $_POST['n1'];
     $n2 = $_POST['n2'];
-
+    
     // var_dump($op);
     // var_dump($n1);
     // var_dump($n2);
