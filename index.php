@@ -5,7 +5,6 @@
     echo('Hello world') ;}
     if ($_SERVER['REQUEST_METHOD'] === "POST"){
     echo('Hello world 2');
-    echo($_POST);
 
     $op = ($_POST['op']);
     $n1 = ($_POST['n1']);
