@@ -12,6 +12,7 @@
     $op = $_POST['op'];
     $n1 = $_POST['n1'];
     $n2 = $_POST['n2'];
+    echo $n1;
     
     // var_dump($op);
     // var_dump($n1);
