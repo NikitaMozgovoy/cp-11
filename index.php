@@ -17,23 +17,23 @@
     switch ($op) {
     case "add":
         $res = $n1 + $n2;
-        echo json_encode($res);
+        echo $res;
         break;
     case "substract":
         $res = $n1 - $n2;
-        echo json_encode($res);
+        echo $res;
         break;
     case "multiply":
         $res = $n1 * $n2;
-        echo json_encode($res);
+        echo $res;
         break;
     case "divide":
         $res = $n1 / $n2;
-        echo json_encode($res);
+        echo $res;
         break;
     case "exponentiate":
         $res = $n1 ** $n2;
-        echo json_encode($res);
+        echo $res;
         break;
     }
     }
