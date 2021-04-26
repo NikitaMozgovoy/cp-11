@@ -5,18 +5,15 @@
     header('Access-Control-Allow-Origin: *');
     if ($_SERVER['REQUEST_METHOD'] === "POST"){
     echo('Hello world 2');
-    # 1. Данные отправлялись методом POST 
-    # 3. Наша форма не выводилась, если мы отправили данные, а выводилась только когда мы открыли страницу методом GET,
-    # выводить захешированные данные только, если мы их отправили методом POST
 
     $op = $_POST['op'];
     $n1 = $_POST['n1'];
     $n2 = $_POST['n2'];
     echo $n1;
     
-    // var_dump($op);
-    // var_dump($n1);
-    // var_dump($n2);
+    var_dump($op);
+    var_dump($n1);
+    var_dump($n2);
     
     switch ($op) {
     case "add":
